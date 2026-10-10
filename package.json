@@ -1,0 +1,57 @@
+{
+	"name": "@three-ws/pose",
+	"version": "0.2.1",
+	"description": "Deterministic, named pose seeds for rigged 3D avatars. Map a natural-language prompt to a stable seed + full Euler joint-rotation map from the three.ws pose-studio preset library.",
+	"type": "module",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"import": "./src/index.js",
+			"default": "./src/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
+	"keywords": [
+		"3d",
+		"pose",
+		"rig",
+		"skeleton",
+		"joint-rotation",
+		"avatar",
+		"humanoid",
+		"deterministic",
+		"seed",
+		"gltf",
+		"glb",
+		"three.ws",
+		"ai-agents"
+	],
+	"author": "nirholas <support@three.ws>",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/three-ws-pose/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/three-ws-pose.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three-ws-pose/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {},
+	"publishConfig": {
+		"access": "public"
+	}
+}
