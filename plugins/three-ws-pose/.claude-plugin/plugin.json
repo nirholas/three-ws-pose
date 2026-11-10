@@ -6,6 +6,7 @@
     "name": "nirholas"
   },
   "repository": "https://github.com/nirholas/three-ws-pose",
+  "homepage": "https://nirholas.github.io/three-ws-pose/",
   "license": "Apache-2.0",
   "keywords": [
     "pose",
@@ -13,6 +14,5 @@
     "humanoid",
     "deterministic",
     "three-ws"
-  ],
-  "homepage": "https://nirholas.github.io/three-ws-pose/"
+  ]
 }
